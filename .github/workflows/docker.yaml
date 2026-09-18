@@ -3,8 +3,7 @@ on: [push]
 
 jobs:
   lint:
-    name: Build Image
-    runs-on: ubuntu-latest
+    ...
   build:
     name: Build Image
     runs-on: ubuntu-latest
